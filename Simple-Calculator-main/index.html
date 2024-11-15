@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Math Machine</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="calc-container">
+    <div class="display">
+      <div data-previous-operand class="history-display"></div>
+      <div data-current-operand class="main-display"></div>
+    </div>
+    <div class="keypad">
+      <button data-all-clear class="double-width function-key">Clear</button>
+      <button data-delete class="function-key">←</button>
+      <button data-operation class="operator">÷</button>
+      
+      <button data-number class="digit">7</button>
+      <button data-number class="digit">8</button>
+      <button data-number class="digit">9</button>
+      <button data-operation class="operator">×</button>
+      
+      <button data-number class="digit">4</button>
+      <button data-number class="digit">5</button>
+      <button data-number class="digit">6</button>
+      <button data-operation class="operator">−</button>
+      
+      <button data-number class="digit">1</button>
+      <button data-number class="digit">2</button>
+      <button data-number class="digit">3</button>
+      <button data-operation class="operator">+</button>
+      
+      <button data-number class="digit">0</button>
+      <button data-number class="digit">.</button>
+      <button data-equals class="double-width operator">=</button>
+    </div>
+  </div>
+</body>
+</html>
